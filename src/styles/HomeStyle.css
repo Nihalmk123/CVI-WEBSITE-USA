@@ -190,7 +190,7 @@ border: 1px solid black;
   margin-top: 80px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background: var(--light-grey);
+  background:url('../assets/parallax/abstract-light-blue-dots-in-circle-on-navy-background-vector.jpg') no-repeat center center;
 }
 
 .promotion_section h2{
@@ -206,13 +206,13 @@ border: 1px solid black;
   font-size: 1.25rem;
  }
 /* BG paralax scroll */
-.bg_paralax_scroll{
+/* .bg_paralax_scroll{
   background:url('../assets/parallax/bg.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
   height: 700px;
-}
+} */
 
 /* shop section */
 .shop_section {

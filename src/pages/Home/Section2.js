@@ -5,7 +5,6 @@ import Pizza from "../../assets/about/pizza.png";
 import Salad from "../../assets/about/salad.png";
 import Delivery from "../../assets/about/delivery-bike.png";
 import AppDev from '../../assets/services/app dev.png'
-import Testing from '../../assets/services/testing.png'
 import WebDev from '../../assets/services/webdev.jpg'
 import Dm from '../../assets/services/dm.png'
 // Mock Data Cards
@@ -53,7 +52,6 @@ function Section2() {
           <Col sm={6} lg={3} className='mb-4 mb-lg-0'>
           <img src={WebDev} style={{width:'auto', maxWidth:"inherit",maxHeight:"50%", marginBottom:"10px"}}/>
           <h4>Software testing</h4>
-
           </Col>
         </Row>
        

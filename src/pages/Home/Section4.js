@@ -1,39 +1,71 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import PromotionImage from '../../assets/promotion/pro.png'
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import PromotionImage from "../../assets/promotion/pro.png";
 
 function Section4() {
   return (
     <>
-    <section className='promotion_section'>
+      <section className="promotion_section">
         <Container>
-            <Row className='align-iterems-center'>
-                <Col lg={6} className='text-center mb-5 mb-lg-0'>
-                    <img src={PromotionImage} className='img-fluid' alt="promorion"/>
-                </Col>
-                <Col lg={6} className='px-5'>
-                    <h2>Nothing brings people together like a good burger</h2>
-                    <p>Semper lacus cursus porta primis ligula risus tempus and
-                sagittis ipsum mauris lectus laoreet purus ipsum tempor enim
-                ipsum porta justo integer ultrice aligula lectus aenean magna
-                and pulvinar purus at pretium gravida</p>
+          <Row className="align-iterems-center">
+            <Col lg={6} className="text-center mb-5 mb-lg-0"></Col>
+            <Col lg={6} className="px-5">
+              <div style={{ backgroundColor: "#f7f8f9", borderRadius:"10px" }}>
+                <form className="p-3">
+                  <div className="mb-3">
+                    <div>
+                    <label for="exampleInputEmail1" class="form-label">
+                      Name
+                    </label>
+                    <input
+                      style={{ boxShadow: "2px 2px 15px #f7f8f9" }}
+                      type="text"
+                      className="mb-3 form-control"
+                      id="exampleInputPassword1"
+                    />
+                    <label for="exampleInputEmail1" class="form-label">
+                      Email address
+                    </label>
+                    <input
+                      style={{ boxShadow: "2px 2px 15px #f7f8f9" }}
+                      type="email"
+                      className="mb-3 form-control"
+                      id="exampleInputPassword1"
+                    />
+                    </div>
+                    <label for="exampleInputEmail1" class="form-label">
+                    What did you liked the most?
+                    </label>
 
-                <ul>
-                    <li><p>Fringilla risus, luctus mauris orci auctor purus euismod
-                    pretium purus pretium ligula rutrum tempor sapien</p></li>
-                    <li><p>Quaerat sodales sapien euismod purus blandit</p></li>
-                    <li><p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat
-                    sodales sapien undo pretium a purus mauris</p></li>
-                </ul>
-                </Col>
-            </Row>
+                    <textarea
+                      type="text"
+                      className="mb-3 form-control"
+                      id="exampleInputPassword1"
+                    />
+                     <label for="exampleInputEmail1" class="form-label">
+                     How can we improve?
+                    </label>
+                    <textarea
+                      type="text"
+                      className="mb-3 form-control"
+                      id="exampleInputPassword1"
+                    />
+
+                  <button type="submit" className="btn btn-success" style={{width:"100%"}}>
+                    Submit
+                  </button>
+                  </div>
+                </form>
+              </div>
+            </Col>
+          </Row>
         </Container>
-    </section>
+      </section>
 
-    {/* BG paralax scroll */}
-    <section className='bg_paralax_scroll'></section>
+      {/* BG paralax scroll */}
+      <section className="bg_paralax_scroll"></section>
     </>
-  )
+  );
 }
 
-export default Section4
+export default Section4;

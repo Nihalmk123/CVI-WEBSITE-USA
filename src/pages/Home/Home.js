@@ -10,7 +10,7 @@ import Section6 from "./Section6";
 import Section7 from "./Section7";
 
 
-const Home = ({addToCart}) => {
+const Home = () => {
   return (
     <>
       <Layout>
@@ -20,7 +20,7 @@ const Home = ({addToCart}) => {
 
         <Section3 />
 
-        {/* <Section4/> */}
+        <Section4/>
 
         {/* <Section5/> */}
 
